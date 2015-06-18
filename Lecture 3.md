@@ -65,6 +65,8 @@ user.py라는 이름으로 저장하자.
 그럼 해결책은 무엇일까? 우린 지난 시간에 객체지향 프로그래밍을 배운 바 있다. **쪼개자!**  
 해당 역할을 하는 객체를 사용해서 구조를 나눠보자.
 
+![UML](https://raw.githubusercontent.com/retail3210/python-server-for-aperture/master/Lecture%203/lecture3-refactor-uml.png)
+
 - **User** : 사용자 정보를 추상화한 클래스이다. 사용자 자체.
 - **UserStore** : 사용자들의 정보를 저장하는 클래스이다.
 - **UserManager** : 사용자를 관리 (로그인, 회원가입 등) 하는 클래스이다.
